@@ -13,11 +13,42 @@ action_groups:
     - nd_compliance_requirement_config_snapshot
     - nd_compliance_requirement_config_template
     - nd_delta_analysis
-    - nd_epoch
+    - nd_fabric_update_group
     - nd_federation_member
     - nd_flow_rules
     - nd_instant_assurance_analysis
+    - nd_interface_ethernet_access
+    - nd_interface_ethernet_trunk_host
     - nd_interface_flow_rules
+    - nd_interface_loopback
+    - nd_interface_port_channel_access
+    - nd_interface_port_channel_trunk_host
+    - nd_interface_subinterface_managed
+    - nd_interface_subinterface_unmanaged
+    - nd_interface_svi
+    - nd_interface_vpc_access
+    - nd_interface_vpc_trunk_host
+    - nd_local_user
+    - nd_log
+    - nd_maintenance_mode
+    - nd_manage_acl
+    - nd_manage_community_list
+    - nd_manage_extended_community_list
+    - nd_manage_fabric_ai_ebgp_vxlan
+    - nd_manage_fabric_ai_ibgp_vxlan
+    - nd_manage_fabric_ebgp_vxlan
+    - nd_manage_fabric_external
+    - nd_manage_fabric_ibgp_vxlan
+    - nd_manage_l3out
+    - nd_manage_networks
+    - nd_manage_policy
+    - nd_manage_policy_group
+    - nd_manage_prefix_list
+    - nd_manage_resource_manager
+    - nd_manage_route_map
+    - nd_manage_switches
+    - nd_manage_vpc_pair
+    - nd_manage_vrfs
     - nd_pcv
     - nd_pcv_compliance
     - nd_pcv_delta_analysis
