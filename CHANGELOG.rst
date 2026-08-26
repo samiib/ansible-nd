@@ -4,6 +4,21 @@ Cisco Nexus Dashboard Ansible Collection Release Notes
 
 .. contents:: Topics
 
+v1.5.1
+======
+
+Release Summary
+---------------
+
+Release v1.5.1 of the ``ansible-nd`` collection on 2026-08-26.
+This changelog describes all changes made to the modules and plugins included in this collection since v1.5.0.
+
+Minor Changes
+-------------
+
+- Add shared ``config_actions_spec()`` argument-spec fragment (``save``/``deploy``/``type``, where ``type`` accepts ``resource``, ``switch``, or ``global``) with an include-allowlist, so modules can compose the subset of config actions they support instead of hand-writing the block.
+- Relocate ``nd_argument_spec()`` to ``plugins/module_utils/nd_argument_specs.py`` as the single source of truth; ``nd.py`` and ``nd_v2.py`` continue to re-export it, so existing imports keep working unchanged.
+
 v1.5.0
 ======
 
